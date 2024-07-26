@@ -1,0 +1,108 @@
+(1)ports					done
+-Aggregate					done
+	-save 					done
+-basic setting				done
+	-Basic Settings			done
+		-batch edit			done
+	-physical Settings		done
+		-batch edit			done
+-Port Mirroring				done
+	-edit					done
+-MGMT IP					done
+	-edit					done
+-Rate Limiting				done
+	-edit					done
+	-delete					done
+	
+(2)monitor
+-portflow					done
+	-Select clear batch		done
+	-clear batch			done
+-endpoint
+	-arp list
+		-show list
+	-Mac list
+		-show list
+	-Static mac				done
+		-add				done
+		-remove				done
+	-Aging time				done
+		-save				done
+	-Filter mac				done
+		-add				done
+		-remove				done
+		
+(3)VLAN						done
+	-Add					done
+	-remove					done
+	-update					done
+	-Access VLAN			done
+
+(4)security
+	-DHCP Snooping			done
+		-save				done
+	-IP-MAC Binding	
+		-add				done
+		-delete
+		-search
+	-ACL
+		-ACL list
+			-add
+			-delete
+		-ACL Binding
+			-add
+			-unbind
+	-Port Protection
+		-edit
+	-IP Source Guard
+		-basic setting
+			-edit
+		-Excluded VLAN
+			-add
+			-delete
+		-Binding List
+			-search
+	-Anti-ARP Spoofing
+		-add
+		-delete
+	-Storm Control
+		-edit
+		-delete
+
+(5)system
+	-save
+	
+(6)L2 Multicast
+	-Global Settings
+		-save
+	-MVR
+		-save
+		-edit
+	-IGMP Snooping
+		-save
+		-edit
+	-Multicast GroupI
+		-add
+		-delete
+	-IGMP Filter
+		-add
+		-delete
+		-edit
+	-Querier
+		-edit
+	
+(7)advanced
+	-STP
+		-save
+	-LLDP
+		-LLDP Settings
+			-save
+		-LLDP Management
+			-edit
+	-RLDP
+		-save
+	-LOCAL DNS
+		-save
+	
+	
+	
